@@ -1,0 +1,54 @@
+# Local data, experiments and predictions
+/data/
+/feature_cache_v4/
+/saved_models/
+/night_runs/
+/policy_runs/
+/archive/
+/ranker_final_reproduction/
+/gru_v1/
+/gru05/
+/gru_smoke/
+/gru05_smoke/
+/submits/
+
+# Model checkpoints and binary caches
+*.joblib
+*.pkl
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Temporary outputs
+checkpoints/
+logs/
+*.log
+*.tmp
+*.swp
+*~
+
+# Secrets and credentials
+.env
+.env.*
+secrets/
+credentials*.json
+kaggle.json
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

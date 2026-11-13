@@ -1,0 +1,12 @@
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+matplotlib
+lightgbm
+joblib
+ipython
+ipykernel
+tqdm
+torch
